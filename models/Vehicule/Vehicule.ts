@@ -1,6 +1,6 @@
-import { Moteur } from "./Moteur";
+import { Moteur } from "../Moteurs/Moteur";
 
-export class Vehicule {
+export abstract class Vehicule {
 
     private _marque : string = "";
     private _couleur : string = "";
@@ -34,5 +34,7 @@ export class Vehicule {
     set prix(p : number) {
         this._prix = p;
     }
+
+    klaxon(){};
 
 }
