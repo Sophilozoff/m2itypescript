@@ -1,0 +1,20 @@
+{
+  "name": "typescript-exo",
+  "version": "1.0.0",
+  "description": "exo",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sophilozoff/m2itypescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sophilozoff/m2itypescript/issues"
+  },
+  "homepage": "https://github.com/Sophilozoff/m2itypescript#readme"
+}
