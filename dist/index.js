@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Moteur_1 = require("./models/Moteurs/Moteur");
+var StationEssence_1 = require("./models/StationEssence");
 var Camion_1 = require("./models/Vehicule/Camions/Camion");
 var Moto_1 = require("./models/Vehicule/Moto/Moto");
 var Voiture_1 = require("./models/Vehicule/Voiture/Voiture");
@@ -26,3 +27,5 @@ moto.prix = 9900;
 camion.klaxon();
 voiture.klaxon();
 moto.klaxon();
+var total = new StationEssence_1.StationEssence();
+console.log(total.faireLePlein(moto));

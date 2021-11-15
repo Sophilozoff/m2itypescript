@@ -1,4 +1,5 @@
 import { Moteur } from "./models/Moteurs/Moteur";
+import { StationEssence } from "./models/StationEssence";
 import { Camion } from "./models/Vehicule/Camions/Camion";
 import { Moto } from "./models/Vehicule/Moto/Moto";
 import { Voiture } from "./models/Vehicule/Voiture/Voiture";
@@ -31,4 +32,8 @@ moto.prix = 9900;
 camion.klaxon();
 voiture.klaxon();
 moto.klaxon();
+
+let total = new StationEssence();
+console.log(total.faireLePlein(moto));
+
 
